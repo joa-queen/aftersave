@@ -1,0 +1,26 @@
+{
+	"schema_version": "1.0",
+	"packages": [
+		{
+			"name": "Aftersave",
+			"description": "Perform a custom action after saving a file",
+			"author": "Joaquin Miguez",
+			"homepage": "https://github.com/joacodeviaje/aftersave",
+			"last_modified": "2013-06-21 18:56:00",
+			"platforms": {
+				"osx": [
+					{
+						"version": "1.0",
+						"url": "https://github.com/joacodeviaje/aftersave/archive/master.zip"
+					}
+				],
+				"linux": [
+					{
+						"version": "1.0",
+						"url": "https://github.com/joacodeviaje/aftersave/archive/master.zip"
+					}
+				]
+			}
+		}
+	]
+}
