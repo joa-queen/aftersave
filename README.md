@@ -29,7 +29,7 @@ Example:
 ```
 
 
-**<self>** is automatically replaced by the current file name.
+**&lt;self&gt;** is automatically replaced by the current file name.
 
 
 Known issues
