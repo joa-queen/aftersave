@@ -12,8 +12,11 @@ class UglifyCommand(sublime_plugin.TextCommand):
 			p = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd)
 			out, stderr = p.communicate()
 
+			print '[Aftersave] Executing: ' + command
 			if (stderr):
-				print 'Aftersave error: ' + stderr
+				print '[Aftersave] error: ' + stderr
+			if (out):
+				print '[Aftersave] output: ' + out
 
 class UglifySave(sublime_plugin.EventListener):
   def on_post_save(self, view):
